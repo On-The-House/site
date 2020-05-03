@@ -1,0 +1,50 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3897873, 2020-05-01T12:47:54-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Larsseit-Bold by Type Dynamic
+ * URL: https://www.myfonts.com/fonts/typedynamic/larsseit/bold/
+ * Copyright: Copyright (c) 2013 by Type Dynamic. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3b7a11");
+  
+@font-face {
+  font-family: 'Larsseit-Bold';
+  src: url('/fonts/Larsseit-Bold-font.woff2') format('woff2'), url('/fonts/Larsseit-Bold-font.woff') format('woff');
+}
+
+/*
+        This font software is the property of Commercial Type.
+
+        You may not modify the font software, use it on another website, or install it on a computer.
+
+        License information is available at http://commercialtype.com/eula
+        For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+        Copyright (C) 2020 Schwartzco Inc.
+        License: 2005-BFVVJR     
+*/
+
+
+@font-face {
+  font-family: 'Schnyder S Web';
+  src: url('/fonts/SchnyderS-Demi-Web.woff2') format('woff2'),
+       url('/fonts/SchnyderS-Demi-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
