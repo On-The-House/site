@@ -25,10 +25,11 @@ body {
 span {
   line-height: 23px;
   font-size: 20px;
-  padding: 2rem 1rem;
+  padding: 1.7rem 1rem;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  @media (--800) {
+  @media (--600) {
+    padding: 1.6rem 0;
     font-size: 16px;
   }
   @media (--1200) {
@@ -56,9 +57,9 @@ h1, .h1 {
     font-size: calc((60 /16) * 1rem);
   }
   @media (--1000) {
-    font-size: calc((120 /16) * 1rem);
+    font-size: calc((140 /16) * 1rem);
   }
-  @media (--1200) {
+  @media (--1400) {
     font-size: calc((170 /16) * 1rem);
   }
 }
@@ -135,12 +136,13 @@ a {
 }
 
 .button {
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem 1.6rem;
   border: none;
   cursor: pointer;
   font-size: 18px;
   transition: all 0.3s ease-in-out;
   @media (--800) {
+    padding: 1.5rem;
     font-size: 22px;
   }
   &:hover {

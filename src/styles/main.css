@@ -30,7 +30,8 @@ body {
 
 .site {
   min-height: 100vh;
-  padding-bottom: 50px;
+  min-height: -webkit-fill-available;
+  padding-bottom: 70px;
   @media (--800) {
     padding-bottom: 100px;
   }
@@ -122,6 +123,15 @@ body {
   transform: rotate(-10deg);
   width: 100%;
   max-width: 86%;
+  @media (--600) {
+    max-width: 300px;
+  }
+}
+
+.site__apply {
+  @media (max-width: 800px) {
+    bottom: -2px;
+  }
 }
 
 .single__cherry-l {

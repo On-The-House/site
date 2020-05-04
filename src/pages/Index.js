@@ -49,9 +49,9 @@ export function view (props) {
           </div>
         </div>
 
-        <button className='x button p1 caps lars small fix bottom left bcb cw'>
+        <a href='https://forms.gle/v4HwVWQxce3fBcyy9' className='x button p1 site__apply caps lars small fix bottom left bcb cw'>
           Apply for Sponsorship
-        </button>
+        </a>
       </div>
     </App>
   )

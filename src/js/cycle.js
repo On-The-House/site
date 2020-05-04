@@ -1,7 +1,6 @@
 import { component } from 'picoapp'
 
 export default component(({node}) => {
-  console.log('cycle?', node)
   const spans = node.querySelectorAll('.js-span') 
   let index = 0
   setInterval(() => {
